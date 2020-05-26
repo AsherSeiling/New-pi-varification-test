@@ -3,6 +3,15 @@
 using namespace std;
 
 int main(){
+	// Number it will add every loop
+	double add_num_loop = .1;
+
+    // What number it will go up to
+    int run_up_to = 10;
+
+    // Trys it counts up per try
+    int trys_up = 1;
+
     // new pi equivalent
     double new_pi = .785;
 
@@ -26,8 +35,8 @@ int main(){
 
     // Main loop
     while(try_tf == true){
-        try_num += 1;
-        num += .1;
+        try_num += trys_up;
+        num += add_num_loop;
         // Area new
         double areacalnew = (num * num) * new_pi;
 
@@ -59,7 +68,7 @@ int main(){
         cout << "Try: " +  to_string(try_num) + " Cal num: " + to_string(num) + " |Area " + area_works + " |Circumference " + cir_works << endl;
 
         // Final if to see if next try should happen
-        if(num >= 1000000){
+        if(num >= run_up_to){
             try_tf = false;
         }
     }
