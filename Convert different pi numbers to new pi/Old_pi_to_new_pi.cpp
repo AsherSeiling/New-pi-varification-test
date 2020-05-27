@@ -24,6 +24,4 @@ int main(){
     // Display result
     cout << "The new pi is: " + to_string(cal1) << endl;
     cout << "Thank you for using Seiling old pi to new pi converter." << endl;
-
-    
 }

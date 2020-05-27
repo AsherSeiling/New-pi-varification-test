@@ -18,7 +18,5 @@ public class Old_pi_to_new_pi{
         // Display Result
         System.out.println("New pi is: " + calculation1);
         System.out.println("Thank you for using Seiling Old to new pi converter");
-
-        
     } 
 }
