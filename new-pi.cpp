@@ -13,10 +13,10 @@ int main(){
     int trys_up = 1;
 
     // new pi equivalent
-    double new_pi = .785;
+    double new_pi = 0.785375;
 
     // old pi
-    double old_pi = 3.14;
+    double old_pi = 3.1415;
 
     // num its trying it on
     double num = 0;
