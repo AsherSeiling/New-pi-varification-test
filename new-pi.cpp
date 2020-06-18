@@ -72,4 +72,5 @@ int main(){
             try_tf = false;
         }
     }
+    return 0;
 }
